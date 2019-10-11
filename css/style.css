@@ -1,0 +1,38 @@
+body{
+    /* background: #333; */
+    /* background: url("../img/space1.jpg") repeat center; */
+}
+canvas{
+    margin-top: 30px;
+}
+
+.gameName{
+    background: #ffffff;
+    height: 60px;
+}
+
+#map{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* margin: 30px auto 0px ; */
+    
+}
+
+#player{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* display: block; */
+    border: 1px solid red;
+}
+
+#enemy{
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* display: block; */
+    /* margin: -500px 0px ; */
+    /* margin: -500px auto 0px ; */
+    border: 1px solid blue;
+}
